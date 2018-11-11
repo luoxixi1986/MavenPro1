@@ -28,7 +28,7 @@ public class Test40 {
   @Test(dependsOnMethods={"message"})
   public void logout() throws InterruptedException {
 	  driver.findElement(By.linkText("退出")).click();
-	  Thread.sleep(3000);
+	  Thread.sleep(2000);
   }
 
   @Test(dependsOnMethods={"login"})
