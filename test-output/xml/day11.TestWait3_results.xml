@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.460">
+  <properties />
+  
+  
+            <testcase name="f" time="5.460" classname="day11.TestWait3" />
+      
+</testsuite>

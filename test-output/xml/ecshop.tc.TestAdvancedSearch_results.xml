@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestFirefox"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.628">
+  <properties />
+  
+  
+            <testcase name="f" time="4.571" classname="ecshop.tc.TestAdvancedSearch" />
+                <testcase name="f" time="4.680" classname="ecshop.tc.TestAdvancedSearch" />
+                <testcase name="f" time="8.377" classname="ecshop.tc.TestAdvancedSearch" />
+      
+</testsuite>

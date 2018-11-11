@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.tedu.MavenPro1.CopyOfApp1Test2
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.605 sec - in org.tedu.MavenPro1.CopyOfApp1Test2

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [org.tedu.MavenPro1.App1Test]" junit="true">
+  <test name="Command line test 92b181bc-bd89-4623-991d-0a6e78eb3018(failed)" junit="true">
+    <classes>
+      <class name="org.tedu.MavenPro1.App1Test">
+        <methods>
+          <include name="testb"/>
+        </methods>
+      </class> <!-- org.tedu.MavenPro1.App1Test -->
+    </classes>
+  </test> <!-- Command line test 92b181bc-bd89-4623-991d-0a6e78eb3018(failed) -->
+</suite> <!-- Failed suite [org.tedu.MavenPro1.App1Test] -->

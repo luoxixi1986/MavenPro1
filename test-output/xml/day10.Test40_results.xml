@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="23.750">
+  <properties />
+  
+  
+            <testcase name="message" time="13.993" classname="day10.Test40" />
+                <testcase name="login" time="6.528" classname="day10.Test40" />
+                <testcase name="logout" time="3.229" classname="day10.Test40" />
+      
+</testsuite>

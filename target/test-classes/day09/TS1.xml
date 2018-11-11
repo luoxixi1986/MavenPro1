@@ -1,0 +1,23 @@
+<suite name="Suite" parallel="false">
+  <test name="TestFirefox">
+  	<parameter name="browser" value="firefox" />
+    <classes>
+      <class name="day09.Test35"/>
+      <class name="day09.Test36"/>
+    </classes>
+  </test>
+  <test name="TestChrome">
+  	<parameter name="browser" value="chrome" />
+    <classes>
+      <class name="day09.Test35"/>
+      <class name="day09.Test36"/>
+    </classes>
+  </test>
+  <test name="TestIE">
+ 	 <parameter name="browser" value="ie" />
+    <classes>
+      <class name="day09.Test35"/>
+      <class name="day09.Test36"/>
+    </classes>
+  </test>
+</suite>

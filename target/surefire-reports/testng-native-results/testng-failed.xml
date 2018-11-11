@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [ecshop.tc.TestAdvancedSearch]">
+  <test name="Command line test 5057cd01-2454-440f-9c59-0394f0eb8315(failed)">
+    <classes>
+      <class name="ecshop.tc.TestAdvancedSearch">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- ecshop.tc.TestAdvancedSearch -->
+    </classes>
+  </test> <!-- Command line test 5057cd01-2454-440f-9c59-0394f0eb8315(failed) -->
+</suite> <!-- Failed suite [ecshop.tc.TestAdvancedSearch] -->

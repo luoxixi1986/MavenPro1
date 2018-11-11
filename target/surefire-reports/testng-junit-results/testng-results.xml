@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="org.tedu.MavenPro1.AbstractApp1Test" duration-ms="66" started-at="2018-10-20T13:03:39Z" finished-at="2018-10-20T13:03:39Z">
+    <groups>
+    </groups>
+    <test name="Command line test 3199db50-ed43-4ad7-bb26-cfc2097c1581" duration-ms="66" started-at="2018-10-20T13:03:39Z" finished-at="2018-10-20T13:03:39Z">
+    </test> <!-- Command line test 3199db50-ed43-4ad7-bb26-cfc2097c1581 -->
+  </suite> <!-- org.tedu.MavenPro1.AbstractApp1Test -->
+  <suite name="org.tedu.MavenPro1.TestCopyOfApp" duration-ms="0" started-at="2018-10-20T13:03:40Z" finished-at="2018-10-20T13:03:40Z">
+    <groups>
+    </groups>
+    <test name="Command line test e10e2f4a-e591-4adc-9bd4-233d0705d11f" duration-ms="0" started-at="2018-10-20T13:03:40Z" finished-at="2018-10-20T13:03:40Z">
+      <class name="org.tedu.MavenPro1.TestCopyOfApp">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(org.tedu.MavenPro1.TestCopyOfApp)]" name="testApp" duration-ms="0" started-at="2018-10-20T21:03:40Z" finished-at="2018-10-20T21:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- org.tedu.MavenPro1.TestCopyOfApp -->
+    </test> <!-- Command line test e10e2f4a-e591-4adc-9bd4-233d0705d11f -->
+  </suite> <!-- org.tedu.MavenPro1.TestCopyOfApp -->
+  <suite name="org.tedu.MavenPro1.AppTest" duration-ms="0" started-at="2018-10-20T13:03:40Z" finished-at="2018-10-20T13:03:40Z">
+    <groups>
+    </groups>
+    <test name="Command line test 0848d252-c2f8-4b47-bf7f-b0b1d77e8ebe" duration-ms="0" started-at="2018-10-20T13:03:40Z" finished-at="2018-10-20T13:03:40Z">
+      <class name="org.tedu.MavenPro1.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(org.tedu.MavenPro1.AppTest)]" name="testApp" duration-ms="0" started-at="2018-10-20T21:03:40Z" finished-at="2018-10-20T21:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- org.tedu.MavenPro1.AppTest -->
+    </test> <!-- Command line test 0848d252-c2f8-4b47-bf7f-b0b1d77e8ebe -->
+  </suite> <!-- org.tedu.MavenPro1.AppTest -->
+  <suite name="org.tedu.MavenPro1.App1Test" duration-ms="9" started-at="2018-10-20T13:03:39Z" finished-at="2018-10-20T13:03:40Z">
+    <groups>
+    </groups>
+    <test name="Command line test 92b181bc-bd89-4623-991d-0a6e78eb3018" duration-ms="9" started-at="2018-10-20T13:03:39Z" finished-at="2018-10-20T13:03:40Z">
+      <class name="org.tedu.MavenPro1.App1Test">
+        <test-method status="FAIL" signature="testb()[pri:0, instance:testb(org.tedu.MavenPro1.App1Test)]" name="testb" duration-ms="3" started-at="2018-10-20T21:03:40Z" finished-at="2018-10-20T21:03:40Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+	at org.junit.Assert.fail(Assert.java:91)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertFalse(Assert.java:68)
+	at org.junit.Assert.assertFalse(Assert.java:79)
+	at org.tedu.MavenPro1.App1Test.testb(App1Test.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1005)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:91)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:211)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:107)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testb -->
+        <test-method status="PASS" signature="testa()[pri:0, instance:testa(org.tedu.MavenPro1.App1Test)]" name="testa" duration-ms="1" started-at="2018-10-20T21:03:40Z" finished-at="2018-10-20T21:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testa -->
+      </class> <!-- org.tedu.MavenPro1.App1Test -->
+    </test> <!-- Command line test 92b181bc-bd89-4623-991d-0a6e78eb3018 -->
+  </suite> <!-- org.tedu.MavenPro1.App1Test -->
+</testng-results>

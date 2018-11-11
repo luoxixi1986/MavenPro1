@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- one project with multiple targets  -->
+<project name="test" default="run" basedir=".">
+	<!-- paths used -->
+	<property name="src.dir" value="src" />
+	<property name="dest.dir" value="build" />
+	<property name="dest.report" value="report" />
+	<property name="dest.xmlfile" value="xmlfile" />
+
+	<path id="jarfile">
+		<fileset dir="lib" includes="**/*.jar" />
+	</path>
+
+	<!-- delete the output folder if it exists -->
+	<delete dir="${dest.dir}" failonerror="false" />
+	
+	<!-- create the output folder -->
+	<mkdir dir="${dest.dir}" />
+	<mkdir dir="${dest.report}" />
+
+	<!-- target to compile all test classes out -->
+	<target name="build">
+
+		<!-- do copy -->
+
+		<!-- compile -->
+		<javac target="1.7" source="1.7"  srcdir="${src.dir}" destdir="${dest.dir}" includeAntRuntime="false" encoding="UTF-8" debug="true" fork="yes">
+			<classpath refid="jarfile" />
+		</javac>
+
+	</target>
+
+	<!-- define the TestNG task -->
+
+	<taskdef name="testng" classname="org.testng.TestNGAntTask" classpathref="jarfile" />
+
+	<!-- run test -->
+	<target name="run" depends="build">
+		<testng classpathref="jarfile" outputDir="${dest.report}" haltOnFailure="false">
+			<jvmarg value="-Dfile.encoding=UTF-8" />
+			
+			<classfileset dir="${dest.dir}" includes="*.class" />
+			<classpath>
+				<pathelement path="${dest.dir}" />
+			</classpath>
+			<xmlfileset dir="${dest.xmlfile}" includes="zuoye20181103.xml" />
+		</testng>
+		
+	</target>
+
+</project>

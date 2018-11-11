@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12646" started-at="2018-10-18T13:16:21Z" finished-at="2018-10-18T13:16:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12646" started-at="2018-10-18T13:16:21Z" finished-at="2018-10-18T13:16:34Z">
+      <class name="ecshop.TestEcshopSearch">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ecshop.TestEcshopSearch@6d4b1c02]" name="beforeMethod" is-config="true" duration-ms="4012" started-at="2018-10-18T21:16:21Z" finished-at="2018-10-18T21:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:ecshop.TestEcshopSearch@6d4b1c02]" name="f" duration-ms="8118" started-at="2018-10-18T21:16:25Z" finished-at="2018-10-18T21:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ecshop.TestEcshopSearch@6d4b1c02]" name="afterMethod" is-config="true" duration-ms="452" started-at="2018-10-18T21:16:33Z" finished-at="2018-10-18T21:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ecshop.TestEcshopSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
